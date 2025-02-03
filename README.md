@@ -21,7 +21,12 @@ conda env create -f env_mossf_cappi.yml
 ```
 
 ## TODO
-1. add how to get data 
-    1.`../1data/0radar/1Mosaic_hourly_1hour_sotntihn/` 
-    2. `./0variables_cappi/cappi_hourly_times.txt`
-    
+
+The Paper mentioned 3 datasources
+
+1. [Ground rainfall data](https://tiservice.hii.or.th/opendata/data_catalog/hourly_rain/)
+2. [Weather radar data from Thai Meteorological Department]() no link
+3. [Watershed boundary data for Thai ffice of the National Water Resources (ONWR)]() no link
+
+
+4. add how to get data 1.`../1data/0radar/1Mosaic_hourly_1hour_sotntihn/` 2. `./0variables_cappi/cappi_hourly_times.txt`
