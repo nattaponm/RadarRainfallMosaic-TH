@@ -20,13 +20,6 @@ cd [clone path]
 conda env create -f env_mossf_cappi.yml
 ```
 
-## TODO
-
-The Paper mentioned 3 datasources
-
-1. [Ground rainfall data](https://tiservice.hii.or.th/opendata/data_catalog/hourly_rain/)
-2. [Weather radar data from Thai Meteorological Department]() no link
-3. [Watershed boundary data for Thai ffice of the National Water Resources (ONWR)]() no link
-
-
-4. add how to get data 1.`../1data/0radar/1Mosaic_hourly_1hour_sotntihn/` 2. `./0variables_cappi/cappi_hourly_times.txt`
+1. download data from [here](https://drive.google.com/drive/folders/1WrPXwlQrUqCS-4wwqRH-TFumfXIK9tOI?usp=sharing)
+2. unzip the data and put it in the `./1data/` directory
+3. run the code, but update the path from `../1data/` to `./1data/` as well as output path e.g. from `../3output/` to `./3output/` otherwise it will write file outside the repo directory
